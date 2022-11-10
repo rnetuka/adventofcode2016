@@ -20,3 +20,7 @@ func ReadLines(path string) []string {
 	}
 	return lines
 }
+
+func Read(path string) string {
+	return ReadLines(path)[0]
+}
